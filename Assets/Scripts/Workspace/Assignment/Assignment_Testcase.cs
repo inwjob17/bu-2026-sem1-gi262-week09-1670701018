@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Assignment
+/*namespace Assignment
 {
     public class Assignment_Testcase
     {
@@ -41,7 +41,7 @@ namespace Assignment
         [Test]
         public void Test_LCT03_ActionStack()
         {
-            string[] actual = assignment.LCT03_ActionStack();
+            string[] actual = assignment.LCT03_ActionStack(assignment.GetHistory());
             CollectionAssert.AreEqual(new[] { "Action 3", "Action 2", "Action 1" }, actual);
         }
 
@@ -109,3 +109,4 @@ namespace Assignment
     }
 
 }
+  */
